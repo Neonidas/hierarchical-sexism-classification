@@ -6,25 +6,6 @@ This repository contains the code and files used in the thesis paper "Hierarchic
 The data is sourced from the SemEval 2023 Task 10 - "Explainable Detection of Online Sexism" (EDOS) and can be found here: 
 https://github.com/rewire-online/edos/tree/main
 
-## Contents
-### Analysis
-In the Analysis folder, you will find Jupyter notebooks containing a data exploration of the EDOS dataset and qualitative and quantitative analysis of our model.
-
-### Annotations
-In the Annotations folder, we included our manual annotations of 100 data samples from training and test split each, along with Fleiss Kappa scores and a exploratory analysis for each set of annotations.
-
-### SVM
-You can find our SVM implementation in the SVM folder
-
-### label_preds
-In the label_preds folder, you can find our baseline and hierarchical model predictions, including a reddit and gab split.
-
-### utils
-Various utility code and helper functions belong in the utils folder.
-
-### Implementations
-You can find our implementation of a hierarchical model in the ```hierarchical_model.py``` file. It only supports up to three hierarchical levels.
-
 ## Running the code
 In order to run this code, remember to pip install the requirements file:
 ```
@@ -90,5 +71,27 @@ Example:
 ```
 python3 main.py path_to_train_data path_to_dev_data path_to_test_data GroNLP/hateBERT manyMLM
 ```
+
+
+
+## Contents
+### Analysis/
+In the Analysis folder, you will find Jupyter notebooks containing a data exploration of the EDOS dataset and qualitative and quantitative analysis of our model.
+
+### Annotations/
+In the Annotations folder, we included our manual annotations of 100 data samples from training and test split each, along with Fleiss Kappa scores and a exploratory analysis for each set of annotations.
+
+### SVM/
+You can find our SVM implementation in the SVM folder
+
+### label_preds/
+In the label_preds folder, you can find our baseline and hierarchical model predictions, including a reddit and gab split.
+
+### utils/
+Various utility code and helper functions belong in the utils folder.
+
+### Implementations
+You can find our implementation of a hierarchical model in the ```hierarchical_model.py``` file. It only supports up to three hierarchical levels.
+
 
 
