@@ -2,12 +2,16 @@
 Credit: Behlül Özcelik, Namra Imtiaz Özcelik, Sara Holst Winther, Rob Van der Goot (Supervisor) 
 
 This repository contains the code and files used in the thesis paper "Hierarchical Sexism Detection and Classification on Social Media Data"
+## Data
+The data is sourced from the SemEval 2023 Task 10 - "Explainable Detection of Online Sexism" (EDOS) and can be found here: 
+https://github.com/rewire-online/edos/tree/main
 
+## Contents
 ### Analysis
 In the Analysis folder, you will find Jupyter notebooks containing a data exploration of the EDOS dataset and qualitative and quantitative analysis of our model.
 
 ### Annotations
-In the Annotations folder, we included our manual annotations of 100 data samples from training and test split each, along with Fleiss Kappa scores and a exploratory analysis for each.
+In the Annotations folder, we included our manual annotations of 100 data samples from training and test split each, along with Fleiss Kappa scores and a exploratory analysis for each set of annotations.
 
 ### SVM
 You can find our SVM implementation in the SVM folder
