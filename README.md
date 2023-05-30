@@ -6,7 +6,7 @@ This repository contains the code and files used in the thesis paper "Hierarchic
 The data is sourced from the SemEval 2023 Task 10 - "Explainable Detection of Online Sexism" (EDOS) and can be found here: 
 https://github.com/rewire-online/edos/tree/main
 
-## Running the code
+## How to run
 In order to run this code, remember to pip install the requirements file:
 ```
 pip install -r requirements.txt
